@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Yandex translate (Infinnity) </title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="wrapper" ng-controller="translateCtrl">
+	<div class="container">
+		<div class="block-1">
+			<span class="description">{{langNow}}</span>
+			<textarea class="area-1" name="" id="" cols="22" rows="6" ng-model="txt"></textarea>
+		</div>
+		<div class="block-2">
+			<span class="description">Русский</span>
+			<textarea class="area-2" name="" id="" cols="22" rows="6" ng-model="result"></textarea>
+		</div>
+		<button ng-click="translateMsg()">Перевести</button>
+	</div>
+
+	
+</section>
+<script src="libs/angular/angular.min.js"></script>
+<script src="js/controllers/main.ctrl.js"></script>
+</body>
+</html>

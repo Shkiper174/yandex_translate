@@ -1,0 +1,6 @@
+{
+	"link": "https://translate.yandex.net/api/v1.5/tr.json/translate",
+	"key": "key=trnsl.1.1.20161012T074131Z.01c61ccbc322ef25.b004c81970271f0bc1f5eeb0473dc49fa4dbc5db",
+	"detectLang": "https://translate.yandex.net/api/v1.5/tr.json/detect",
+	"getLangs": "https://translate.yandex.net/api/v1.5/tr.json/getLangs"
+}
